@@ -15,7 +15,7 @@ namespace ifelse
             Console.WriteLine("Enter a second number:");
             int b = int.Parse(Console.ReadLine());
 
-            if (a > b)
+            if (a == b)
             {
                 Console.WriteLine("The first number is greater than the second number.");
             }
